@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+// import Btn from './lib/components/RXBtn';
+// import TextInput from './lib/components/RXInput';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			{/* <div className="container">
+				<TextInput
+					type='text'
+					placeholder='Sample Text Input'
+				/>
+				<Btn variant={'primary'}
+					tag='button'
+					onClick={() => alert("clicked")}
+					icon='add'
+				>
+					Normal Button
+				</Btn>
+			</div> */}
+			Welcome to StriFerral
+		</div>
+	);
 }
 
 export default App;
