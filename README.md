@@ -1,3 +1,3 @@
-# RX-UI+Library
+# Striferral
 
-This project contains react standalone components, frequently used function helpers and styles.
+Striferral (Strictly Refferal) is a web application that rewards referrers, they earn on every referral they make from the first level up until the third level.
