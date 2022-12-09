@@ -1,0 +1,9 @@
+.animate_path {
+     stroke-dasharray: 2350;
+     stroke-dashoffset: 910;
+     stroke-width: 2;
+     stroke-linecap: round;
+     -webkit-animation: dash 1s linear infinite;
+     animation: dash 1s linear infinite;
+     fill-opacity: 0;
+}
