@@ -1,0 +1,20 @@
+/* RX Styles for RX UI */
+
+/* Layout Styles */
+body,
+section {
+     background: linear-gradient(to right, #000020, #00000f);
+     background: -moz-linear-gradient(to right, #000020, #00000f);
+     background: -o-linear-gradient(to right, #000020, #00000f);
+     background: -webkit-linear-gradient(to right, #000020, #00000f);
+     color: #ccccff;
+     padding: 10px 20px;
+}
+
+.container {
+     background: linear-gradient(to left, #000040, #00004a);
+     background: -moz-linear-gradient(to left, #000040, #00004a);
+     background: -o-linear-gradient(to left, #000040, #00004a);
+     background: -webkit-linear-gradient(to left, #000040, #00004a);
+     border-radius: 5px;
+}
