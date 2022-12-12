@@ -95,7 +95,7 @@ const Btnstyleda = styled.a`
 			: '#ffffff'};
 `;
 
-export default function Btn({
+export default function RXBtn({
 	type,
 	variant,
 	className,

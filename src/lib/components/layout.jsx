@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-// max-width: ${props => props.outline ? "1px" : "none"};
+
 export const RXContainer = styled.div`
 	max-width: ${(props) =>
 		props.size === 'sm'
@@ -31,11 +31,16 @@ export const RXContainer = styled.div`
 			? 'end'
 			: ''};
 	justify-content: ${(props) => (props.centered === true ? 'center' : '')};
-	height: ${(props) => (props.screen === true ? '100vh' : '')};
-	background: ${(props) => (props.dark === true ? '#ccccff' : '#000040')};
+	height: ${(props) => (props.screen === true ? '100vh' : 'fit-content')};
+	background: ${(props) =>
+		props.dark === true
+			? 'rgba(204, 204, 255, 0.8)'
+			: 'rgba(0, 0, 64, 0.8)'};
 	color: ${(props) => (props.dark === true ? '#000040' : '#ccccff')};
-	-webkit-backdrop-filter: blur(10px);
-	backdrop-filter: blur(10px);
-	backdrop-filter: ${(props) =>
-		props.transparent === true ? 'blur(6px)' : ''};
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: ${(props) => (props.glass === true ? 'blur(3px)' : '')};
+	-webkit-backdrop-filter: ${(props) =>
+		props.glass === true ? 'blur(3px)' : ''};
+	border: ${(props) =>
+		props.glass === true ? '1px solid rgba(255, 255, 255, 0.3)' : ''};
 `;

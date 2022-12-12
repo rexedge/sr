@@ -1,0 +1,9 @@
+
+$theme-colors: (
+	"primary": #00004f,
+	"danger": #ff4136,
+);
+$gradient: linear-gradient(180deg, rgba(black, .55), rgba(black, 0)) !default;
+  
+  
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

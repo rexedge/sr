@@ -10,6 +10,7 @@ import Homepage from './pages/home';
 import Home from './pages/home/Home';
 import Register from './pages/register';
 import Signin from './pages/signin';
+import Test from './pages/test';
 // import { ROUTES } from './Routes';
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
 					<Route path="/dashboard" element={<Pageone />} />
 					<Route path="/dashboard/pagetwo" element={<Pagetwo />} />
 				</Route>
+				<Route path="test" element={<Test />} />
 				<Route path="*" element={<Error />} />
 			</Routes>
 		</BrowserRouter>

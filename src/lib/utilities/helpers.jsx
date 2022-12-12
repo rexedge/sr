@@ -45,3 +45,24 @@ export const checkDate = (d) => {
 	}
 	return result;
 };
+export const isPortrait = () => {
+	let result = false;
+	window.innerHeight > window.innerWidth
+		? (result = true)
+		: (result = false);
+	return result;
+};
+
+export const deviceType = () => {
+	const ua = navigator.userAgent;
+	if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+		return 'tablet';
+	} else if (
+		/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
+			ua
+		)
+	) {
+		return 'mobile';
+	}
+	return 'desktop';
+};
