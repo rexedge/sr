@@ -53,7 +53,7 @@ export default function RXnavbar() {
 								REGISTER
 							</Button>
 							<Button
-								href='/register'
+								href='/signin'
 								variant='primary'
 							>
 								LOGIN
