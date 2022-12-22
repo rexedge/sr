@@ -45,6 +45,16 @@ export default function Register() {
 						action='signup.php'
 						method='get'
 					>
+						<div className=''>
+							{/* <RXImg
+								className='bg-light p-4'
+								size='sm'
+								circle
+								square
+								src='logo_light.svg'
+							/> */}
+							<h1 className='h3 text-center'>Register</h1>
+						</div>
 						<Form.Group
 							md='4'
 							controlId='validationCustom01'
@@ -101,7 +111,21 @@ export default function Register() {
 								placeholder='Retype Password'
 							/>
 						</Form.Group>
-						<Button type='submit'>Register</Button>
+						<Button
+							variant='light'
+							type='submit'
+						>
+							Register
+						</Button>
+
+						<p className='mt-3'>
+							<a
+								className='text-light text-decoration-none'
+								href='/signin'
+							>
+								Already Have an Account? Click here.
+							</a>
+						</p>
 					</Form>
 				</RXContainer>
 			</section>

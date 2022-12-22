@@ -40,17 +40,19 @@ export default function RXImg({
 	size = 'sm',
 	square,
 	circle,
+	alt = '',
 }) {
 	return (
 		<Box
-			className={className + ' mb-2'}
+			className={className + ' mb-3'}
 			size={size}
 			square={square}
 			circle={circle}
 		>
 			<Img
+				className='mx-auto'
 				src={src}
-				alt=''
+				alt={alt}
 			/>
 		</Box>
 	);

@@ -43,8 +43,18 @@ export default function Signin() {
 						onSubmit={handleSubmit}
 						className='w-100'
 						action='signup.php'
-						method='get'
+						method='POST'
 					>
+						<div className=''>
+							{/* <RXImg
+								className='bg-light p-4'
+								size='sm'
+								circle
+								square
+								src='logo_light.svg'
+							/> */}
+							<h1 className='h3 text-center'>Login</h1>
+						</div>
 						<Form.Group
 							md='4'
 							controlId='validationCustom01'
@@ -69,7 +79,28 @@ export default function Signin() {
 								placeholder='Choose Password'
 							/>
 						</Form.Group>
-						<Button type='submit'>Sign In</Button>
+						<p>
+							<a
+								className='text-light text-decoration-none'
+								href='/forgot'
+							>
+								Forgot password? Click here.
+							</a>
+						</p>
+						<Button
+							variant='light'
+							type='submit'
+						>
+							Sign In
+						</Button>
+						<p className='mt-3'>
+							<a
+								className='text-light text-decoration-none'
+								href='/register'
+							>
+								Don't Have an Account? Click here.
+							</a>
+						</p>
 					</Form>
 				</RXContainer>
 			</section>

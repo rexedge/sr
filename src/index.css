@@ -1,4 +1,20 @@
 body {
-  margin: 0;
-  background-color: #000;
+	margin: 0;
+	background-color: #000;
+}
+
+.elevate:hover {
+	transition: ease-in-out .3s;
+	translate: -5px -5px;
+	box-shadow: 5px 5px 1px 0px rgba(100, 100, 255, 0.7);
+	-webkit-box-shadow: 5px 5px 1px 0px rgba(100, 100, 255, 0.7);
+	-moz-box-shadow: 5px 5px 1px 0px rgba(100, 100, 255, 0.7);
+}
+
+.btn:hover {
+	transition: ease-in-out .3s;
+	translate: -3px -3px;
+	box-shadow: 3px 3px 1px 0px rgba(100, 100, 255, 0.7);
+	-webkit-box-shadow: 3px 3px 1px 0px rgba(100, 100, 255, 0.7);
+	-moz-box-shadow: 3px 3px 1px 0px rgba(100, 100, 255, 0.7);
 }

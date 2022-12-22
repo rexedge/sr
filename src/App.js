@@ -2,10 +2,11 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './lib/styles/striferral.css';
 import About from './pages/about';
 import Dashboard from './pages/dashboard';
-import Pageone from './pages/dashboard/Pageone';
-import Pagetwo from './pages/dashboard/Pagetwo';
+import DashboardMain from './pages/dashboard/DashboardMain';
+import DashboardSettings from './pages/dashboard/DashboardSettings';
 import Error from './pages/error';
 import Faqs from './pages/faqs';
+import Forgot from './pages/forgot';
 import Homepage from './pages/home';
 import Home from './pages/home/Home';
 import Register from './pages/register';
@@ -35,10 +36,11 @@ function App() {
 					<Route path="/signin" element={<Signin />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/faqs" element={<Faqs />} />
+					<Route path="/forgot" element={<Forgot />} />
 				</Route>
 				<Route path="/dashboard" element={<Dashboard />}>
-					<Route path="/dashboard" element={<Pageone />} />
-					<Route path="/dashboard/pagetwo" element={<Pagetwo />} />
+					<Route path="/dashboard" element={<DashboardMain />} />
+					<Route path="/dashboard/settings" element={<DashboardSettings />} />
 				</Route>
 				<Route path="test" element={<Test />} />
 				<Route path="*" element={<Error />} />
