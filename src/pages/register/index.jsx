@@ -20,7 +20,7 @@ export default function Register() {
 			<section className='position-relative'>
 				<div className='position-absolute w-100 h-100 bg-secondary'>
 					<img
-						src='assets/images/refBG1.jpg'
+						src='/assets/images/refBG1.jpg'
 						alt=''
 						width={'100%'}
 						height={'100%'}

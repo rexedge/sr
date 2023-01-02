@@ -7,7 +7,7 @@ export default function About() {
 			<section className='position-relative'>
 				<div className='position-absolute w-100 h-100 bg-secondary'>
 					<img
-						src='assets/images/refBG1.jpg'
+						src='/assets/images/refBG1.jpg'
 						alt=''
 						width={'100%'}
 						height={'100%'}
@@ -46,7 +46,7 @@ export default function About() {
 						</div>
 						<div className='col-md-6 mb-3'>
 							<img
-								src='assets/images/shareCode.svg'
+								src='/assets/images/shareCode.svg'
 								alt=''
 								style={{
 									width: '90%',
@@ -60,7 +60,7 @@ export default function About() {
 					<div className='px-3 row'>
 						<div className='col-md-6 mb-3'>
 							<img
-								src='assets/images/registerInvite.svg'
+								src='/assets/images/registerInvite.svg'
 								alt=''
 								style={{
 									width: '90%',
@@ -108,7 +108,7 @@ export default function About() {
 						</div>
 						<div className='col-md-6 mb-5'>
 							<img
-								src='assets/images/earn.svg'
+								src='/assets/images/earn.svg'
 								alt=''
 								style={{
 									width: '90%',

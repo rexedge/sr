@@ -1,7 +1,6 @@
 import React from 'react';
 import { RXContainer } from '../../lib/components/layout';
 import RXBtn from '../../lib/components/RXBtn';
-import { deviceType } from '../../lib/utilities/helpers';
 
 export default function Home() {
 	return (
@@ -9,7 +8,7 @@ export default function Home() {
 			<section className='position-relative'>
 				<div className='position-absolute w-100 h-100 bg-secondary'>
 					<img
-						src='assets/images/refBG1.jpg'
+						src='/assets/images/refBG1.jpg'
 						alt=''
 						width={'100%'}
 						height={'100%'}
@@ -27,10 +26,9 @@ export default function Home() {
 					className=''
 				>
 					<div className='px-3 row'>
-						{console.log(deviceType())}
 						<div className='col-md-6 mb-3'>
 							<img
-								src='assets/images/refSec2.png'
+								src='/assets/images/refSec2.png'
 								alt=''
 								style={{
 									width: '90%',

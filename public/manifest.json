@@ -1,15 +1,51 @@
 {
-  "short_name": "Striferral",
-  "name": "Strictly Referral",
-  "icons": [
-    {
-      "src": "favicon.svg",
-      "type": "image/svg",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#ccccff",
-  "background_color": "#000040"
+	"name": "Strictly Referral",
+	"short_name": "Striferral",
+	"theme_color": "#ccccff",
+	"background_color": "#000040",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": ".",
+	"icons": [
+		{
+			"src": "favicon.svg",
+			"sizes": "72x72",
+			"type": "image/svg"
+		},
+		{
+			"src": "favicon.svg",
+			"sizes": "96x96",
+			"type": "image/svg"
+		},
+		{
+			"src": "favicon.svg",
+			"sizes": "128x128",
+			"type": "image/svg"
+		},
+		{
+			"src": "favicon.svg",
+			"sizes": "144x144",
+			"type": "image/svg"
+		},
+		{
+			"src": "favicon.svg",
+			"sizes": "152x152",
+			"type": "image/svg"
+		},
+		{
+			"src": "favicon.svg",
+			"sizes": "192x192",
+			"type": "image/svg"
+		},
+		{
+			"src": "favicon.svg",
+			"sizes": "384x384",
+			"type": "image/svg"
+		},
+		{
+			"src": "favicon.svg",
+			"sizes": "512x512",
+			"type": "image/svg"
+		}
+	]
 }

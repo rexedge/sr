@@ -77,6 +77,12 @@ function DashNav() {
 						</Nav.Link>
 						<Nav.Link
 							eventKey='link-2'
+							href='/dashboard/withdrawal'
+						>
+							Withdrawal
+						</Nav.Link>
+						<Nav.Link
+							eventKey='link-3'
 							href='/dashboard/settings'
 						>
 							Settings

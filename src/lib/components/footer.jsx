@@ -12,7 +12,7 @@ export default function RXFooter() {
 					>
 						<img
 							alt=''
-							src='logo_dark.svg'
+							src='/logo_dark.svg'
 							width='30'
 							height='30'
 							className='d-inline-block align-middle'

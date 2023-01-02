@@ -3,6 +3,7 @@ body {
 	background-color: #000;
 }
 
+.elevate:focus,
 .elevate:hover {
 	transition: ease-in-out .3s;
 	translate: -5px -5px;

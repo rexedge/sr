@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navbar, Container, Nav, Button } from 'react-bootstrap';
+import { Navbar, Container, Nav } from 'react-bootstrap';
+import RXIcon from './RXIcon';
 
 export default function RXnavbar() {
 	return (
@@ -15,14 +16,20 @@ export default function RXnavbar() {
 					<Navbar.Brand href='/'>
 						<img
 							alt=''
-							src='logo_dark.svg'
+							src='/logo_dark.svg'
 							width='30'
 							height='30'
 							className='d-inline-block align-top'
 						/>{' '}
 						Striferral
 					</Navbar.Brand>
-					<Navbar.Toggle aria-controls='basic-navbar-nav' />
+					<Navbar.Toggle aria-controls='basic-navbar-nav'>
+						<RXIcon
+							iconType='dashboard'
+							className='text-light'
+							size={25}
+						/>
+					</Navbar.Toggle>
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='mx-auto'>
 							<Nav.Link
@@ -43,21 +50,28 @@ export default function RXnavbar() {
 							>
 								FAQS
 							</Nav.Link>
+							<Nav.Link
+								className='text-center text-white'
+								href='/policies'
+							>
+								POLICIES
+							</Nav.Link>
 						</Nav>
 						<Nav className='d-flex'>
-							<Button
+							<Nav.Link
 								href='/register'
 								variant='primary'
-								className='me-2'
+								className='text-center text-white'
 							>
 								REGISTER
-							</Button>
-							<Button
+							</Nav.Link>
+							<Nav.Link
 								href='/signin'
 								variant='primary'
+								className='text-center text-white'
 							>
 								LOGIN
-							</Button>
+							</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
