@@ -17,8 +17,25 @@
 			},
 			"font": "Tinos"
 		},
+		"red": {
+			"id": "T_004",
+			"name": "Red",
+			"colors": {
+				"body": "#ff0000",
+				"text": "#ffffff",
+				"button": {
+					"text": "#ff0000",
+					"background": "#ffffff"
+				},
+				"link": {
+					"text": "#ffffff",
+					"opacity": 0.8
+				}
+			},
+			"font": "calibri"
+		},
 		"seaWave": {
-			"id": "T_007",
+			"id": "T_002",
 			"name": "Sea Wave",
 			"colors": {
 				"body": "#9be7ff",
